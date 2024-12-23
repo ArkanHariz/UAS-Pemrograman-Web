@@ -60,3 +60,4 @@ mengedit/update data yang ada pada database, dan menghapus data. Ketika menginpu
 <ul><li>Membuat fungsi untuk menetapkan, mendapatkan, dan menghapus cookie.</li></ul>
 <img src="Read.me assets/14.gif" width="600" height="auto" />
 <ul><li>Menggunakan browser storage untuk menyimpan informasi secara lokal.</li></ul>
+<img src="Read.me assets/15.gif" width="600" height="auto" />
