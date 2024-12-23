@@ -53,5 +53,10 @@ mengedit/update data yang ada pada database, dan menghapus data. Ketika menginpu
 
 <h2>Bagian 4: State Management</h2>
 <h3>4.1 State Management dengan Session</h3>
+<ul><li>Gunakan session_start() untuk memulai session.</li></ul>
+<ul><li>Simpan informasi pengguna ke dalam session.</li></ul>
 <img src="Read.me assets/13.gif" width="600" height="auto" />
 <h3>4.2 Pengelolaan State dengan Cookie dan Browser Storage</h3>
+<ul><li>Buat fungsi untuk menetapkan, mendapatkan, dan menghapus cookie.</li></ul>
+<img src="Read.me assets/14.gif" width="600" height="auto" />
+<ul><li>Gunakan browser storage untuk menyimpan informasi secara lokal.</li></ul>
