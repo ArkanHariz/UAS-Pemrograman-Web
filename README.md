@@ -53,4 +53,5 @@ mengedit/update data yang ada pada database, dan menghapus data. Ketika menginpu
 
 <h2>Bagian 4: State Management</h2>
 <h3>4.1 State Management dengan Session</h3>
+<img src="Read.me assets/13.gif" width="600" height="auto" />
 <h3>4.2 Pengelolaan State dengan Cookie dan Browser Storage</h3>
