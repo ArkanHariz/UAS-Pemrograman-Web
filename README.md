@@ -27,3 +27,4 @@
 <img src="Read.me assets/5.jpg" width="600" height="auto" />
 <ul><li>Parsing data dari variabel global dan lakukan validasi di sisi server.</li></ul>
 <ul><li>Simpan ke basis data termasuk jenis browser dan alamat IP pengguna.</li></ul>
+<ul><li>Query Database stok</li></ul>
