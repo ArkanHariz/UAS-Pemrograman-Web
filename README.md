@@ -31,6 +31,15 @@
 <img src="Read.me assets/8-new.jpg" width="600" height="auto" />
 <img src="Read.me assets/9.jpg" width="600" height="auto" />
 <h3>2.2 Objek PHP Berbasis OOP</h3>
-<img src="Read.me assets/9.jpg" width="600" height="auto" />
-<img src="Read.me assets/9.jpg" width="600" height="auto" />
-<img src="Read.me assets/9.jpg" width="600" height="auto" />
+<ul><li>Buat sebuah objek PHP berbasis OOP yang memiliki minimal dua metode dan gunakan objek tersebut dalam skenario tertentu.</li></ul>
+<img src="Read.me assets/10.1.jpg" width="600" height="auto" />
+<img src="Read.me assets/10.2.jpg" width="600" height="auto" />
+<ul><li>Inisialisasi Objek</li></ul>
+<img src="Read.me assets/10.3.jpg" width="600" height="auto" />
+<hr>
+
+<h2>Bagian 3: Database Management</h2>
+<h3>3.1 Pembuatan Tabel Database</h3>
+<img src="Read.me assets/8-new.jpg" width="600" height="auto" />
+<h3>3.2 Konfigurasi Koneksi Database</h3>
+<h3>3.3 Manipulasi Data pada Database</h3>
