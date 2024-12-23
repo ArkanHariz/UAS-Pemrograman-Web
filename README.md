@@ -28,5 +28,9 @@
 <ul><li>Parsing data dari variabel global dan lakukan validasi di sisi server.</li></ul>
 <ul><li>Simpan ke basis data termasuk jenis browser dan alamat IP pengguna.</li></ul>
 <ul><li>Query Database stok</li></ul>
-<img src="Read.me assets/8.jpg" width="600" height="auto" />
+<img src="Read.me assets/8-new.jpg" width="600" height="auto" />
+<img src="Read.me assets/9.jpg" width="600" height="auto" />
+<h3>2.2 Objek PHP Berbasis OOP</h3>
+<img src="Read.me assets/9.jpg" width="600" height="auto" />
+<img src="Read.me assets/9.jpg" width="600" height="auto" />
 <img src="Read.me assets/9.jpg" width="600" height="auto" />
