@@ -17,10 +17,13 @@
 <ul><li>Tambahkan minimal 3 event yang berbeda untuk meng-handle form pada 1.1.</li></ul>
 <ul><li>Validasi setiap input dengan JavaScript sebelum diproses oleh PHP.</li></ul>
 <img src="Read.me assets/4.gif" width="600" height="auto" />
-<img src="Read.me assets/5.jpg" width="600" height="auto" />
+<img src="Read.me assets/6.jpg" width="600" height="auto" />
 <hr>
 
 <h2>Bagian 2: Server-side Programming</h2>
 <h3>2.1 Pengelolaan Data dengan PHP</h3>
 <ul><li>Gunakan metode POST atau GET pada formulir.</li></ul>
-<ul><li>Implementasikan JavaScript untuk validasi setiap input sebelum diproses oleh PHP.</li></ul>
+<ul><li>Menggunakan method POST.</li></ul>
+<img src="Read.me assets/5.jpg" width="600" height="auto" />
+<ul><li>Parsing data dari variabel global dan lakukan validasi di sisi server.</li></ul>
+<ul><li>Simpan ke basis data termasuk jenis browser dan alamat IP pengguna.</li></ul>
