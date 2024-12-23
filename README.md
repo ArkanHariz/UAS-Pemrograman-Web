@@ -49,3 +49,8 @@ mengedit/update data yang ada pada database, dan menghapus data. Ketika menginpu
 <img src="Read.me assets/11.jpg" width="600" height="auto" />
 <h3>3.3 Manipulasi Data pada Database</h3>
 <img src="Read.me assets/12.jpg" width="600" height="auto" />
+<hr>
+
+<h2>Bagian 4: State Management</h2>
+<h3>4.1 State Management dengan Session</h3>
+<h3>4.2 Pengelolaan State dengan Cookie dan Browser Storage</h3>
