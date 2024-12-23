@@ -15,7 +15,9 @@
 <img src="Read.me assets/3.jpg" width="600" height="auto" />
 <h3>1.2 Event Handling</h3>
 <ul><li>Tambahkan minimal 3 event yang berbeda untuk meng-handle form pada 1.1.</li></ul>
-<ul><li>Implementasikan JavaScript untuk validasi setiap input sebelum diproses oleh PHP.</li></ul>
+<ul><li>Validasi setiap input dengan JavaScript sebelum diproses oleh PHP.</li></ul>
+<img src="Read.me assets/4.gif" width="600" height="auto" />
+<img src="Read.me assets/5.jpg" width="600" height="auto" />
 <hr>
 
 <h2>Bagian 2: Server-side Programming</h2>
