@@ -27,6 +27,10 @@
 <img src="Read.me assets/5.jpg" width="600" height="auto" />
 <ul><li>Parsing data dari variabel global dan lakukan validasi di sisi server.</li></ul>
 <ul><li>Simpan ke basis data termasuk jenis browser dan alamat IP pengguna.</li></ul>
+<img src="Read.me assets/7.1.gif" width="600" height="auto" />
+<img src="Read.me assets/7.2.gif" width="600" height="auto" />
+<p>Bagian ini terdapat form dan tabel yang memperlihatkan stok barang dari database. Disini menerapkan CRUD, yaitu membuat data baru kemudian disimpan ke database, menampilkan database ke tabel,
+mengedit/update data yang ada pada database, dan menghapus data. Ketika menginput barang jenis browser dan IP Address akan tersimpan ke database tetapi tidak ditampilkan di tabel nya.</p>
 <ul><li>Query Database stok</li></ul>
 <img src="Read.me assets/8-new.jpg" width="600" height="auto" />
 <img src="Read.me assets/9.jpg" width="600" height="auto" />
@@ -42,4 +46,6 @@
 <h3>3.1 Pembuatan Tabel Database</h3>
 <img src="Read.me assets/8-new.jpg" width="600" height="auto" />
 <h3>3.2 Konfigurasi Koneksi Database</h3>
+<img src="Read.me assets/11.jpg" width="600" height="auto" />
 <h3>3.3 Manipulasi Data pada Database</h3>
+<img src="Read.me assets/12.jpg" width="600" height="auto" />
