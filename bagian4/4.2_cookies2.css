@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FF9A9E, #FAD0C4);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Container Box */
+.container {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Heading */
+h1 {
+    color: #FF6347;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+h3 {
+    color: #555;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Input Fields */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-color: #FF6347;
+    box-shadow: 0 0 8px rgba(255, 99, 71, 0.3);
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    margin: 10px 0;
+    background: linear-gradient(45deg, #FF6347, #FF7F50);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+/* Output Display */
+p#savedData {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #FF6347;
+    font-weight: bold;
+}

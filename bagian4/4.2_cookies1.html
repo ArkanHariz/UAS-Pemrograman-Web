@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Manager</title>
+    <link rel="stylesheet" href="4.2_cookies1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cookie Manager</h1>
+        <input type="text" id="cookieName" placeholder="Enter Cookie Name">
+        <input type="text" id="cookieValue" placeholder="Enter Cookie Value">
+        <div>
+            <button onclick="setCookie()">Set Cookie</button>
+            <button onclick="getCookie()">Get Cookie</button>
+        </div>
+        <p id="output">No cookie operation yet.</p>
+    </div>
+
+    <script>
+        // Function to set cookie
+        function setCookie() {
+            const name = document.getElementById("cookieName").value;
+            const value = document.getElementById("cookieValue").value;
+            if (name && value) {
+                document.cookie = `${name}=${value}; path=/; max-age=86400;`; // Cookie valid for 1 day
+                document.getElementById("output").innerText = "Cookie has been set!";
+            } else {
+                document.getElementById("output").innerText = "Please fill out both fields!";
+            }
+        }
+
+        // Function to get cookie value
+        function getCookie() {
+            const name = document.getElementById("cookieName").value;
+            if (name) {
+                const cookies = document.cookie.split('; ');
+                const cookie = cookies.find(row => row.startsWith(name + '='));
+                const value = cookie ? cookie.split('=')[1] : "No such cookie found!";
+                document.getElementById("output").innerText = `Value: ${value}`;
+            } else {
+                document.getElementById("output").innerText = "Please enter the cookie name!";
+            }
+        }
+    </script>
+</body>
+</html>

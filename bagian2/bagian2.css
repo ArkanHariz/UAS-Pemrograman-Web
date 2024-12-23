@@ -1,0 +1,178 @@
+/* Mengatur body dengan background gradien dan font */
+body {
+    background: linear-gradient(135deg, #00bcd4, #009688); /* Gradien dari biru ke hijau */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    position: relative;
+}
+
+/* Overlay gelap untuk memberi kontras */
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); 
+    z-index: -1;
+}
+
+/* Kontainer utama */
+.mx-auto {
+    width: 100%;
+    max-width: 900px;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Card yang lebih modern dan berwarna */
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Hover efek pada card */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Header card dengan warna kontras */
+.card-header {
+    background-color: #00796b;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Card body dengan padding yang nyaman */
+.card-body {
+    padding: 25px;
+}
+
+/* Tabel styling lebih bersih */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/* Menambah efek hover pada baris tabel */
+table tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+table tr:hover {
+    background-color: #e0f7fa;
+    cursor: pointer;
+}
+
+/* Tombol dengan desain modern dan efek */
+.btn {
+    font-size: 1.1rem;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #00796b;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+/* Tombol dengan warna warnig dan danger */
+.btn-warning {
+    background-color: #ffb300;
+    color: #ffffff;
+}
+
+.btn-warning:hover {
+    background-color: #e65100;
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background-color: #e53935;
+    color: #ffffff;
+}
+
+.btn-danger:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+/* Styling untuk input form dan pencarian */
+.form-control, #search {
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+/* Fokus pada input */
+.form-control:focus, #search:focus {
+    border-color: #00796b;
+    box-shadow: 0 0 5px rgba(0, 121, 107, 0.5);
+    outline: none;
+}
+
+/* Penataan alert untuk kesan lebih bersih */
+.alert {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Menambahkan desain responsif untuk mobile */
+@media (max-width: 768px) {
+    .mx-auto {
+        width: 95%;
+        padding: 20px;
+    }
+
+    table th, table td {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px 15px;
+    }
+}

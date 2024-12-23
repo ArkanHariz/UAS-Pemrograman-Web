@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Manager</title>
+    <link rel="stylesheet" href="4.2_cookies2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Local Storage Manager</h1>
+        <h3>Using Local Storage Object</h3>
+        <label for="dataInput">Enter Data:</label>
+        <input type="text" id="dataInput" placeholder="Enter your data">
+        <button onclick="saveData()">Save Data</button>
+
+        <h3>Saved Data:</h3>
+        <p id="savedData">No data saved yet.</p>
+    </div>
+
+    <script>
+        // Function to save data to localStorage
+        function saveData() {
+            const input = document.getElementById('dataInput').value;
+            if (input) {
+                localStorage.setItem('userData', input);
+                document.getElementById('savedData').innerText = input;
+                alert('Data has been saved to localStorage!');
+            } else {
+                alert('Please enter some data!');
+            }
+        }
+
+        // Function to display saved data on page load
+        function loadData() {
+            const savedData = localStorage.getItem('userData');
+            if (savedData) {
+                document.getElementById('savedData').innerText = savedData;
+            }
+        }
+
+        // Call loadData on page load
+        window.onload = loadData;
+    </script>
+</body>
+</html>
